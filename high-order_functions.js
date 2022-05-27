@@ -16,3 +16,16 @@ const discountedPrice = (discount) => {
 //on line 1 the logic is established, on line 5 the first augument of discountedPrice is filled in
 //on line 7 the the second arguement in discoundtedPrice is established//
 //Once they are both feild the logic of the original discountPrice function is able to run to completion
+
+//practicing the forEach() method//
+
+let parks = [
+    { name: "Biscayne", rating: 4.2 },
+    { name: "Grand Canyon", rating: 5 },
+    { name: "Gateway Arch", rating: 4.5 },
+    { name: "Indiana Dunes", rating: 4.1 },
+  ];
+
+  let parkNames = (park) => console.log(park.name)
+
+  console.log(parks.forEach(parkNames))
